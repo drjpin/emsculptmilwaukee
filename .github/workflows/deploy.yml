@@ -1,0 +1,36 @@
+name: Deploy to TigerTech via FTP
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        
+      - name: Deploy to TigerTech FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: /public_html/
+          # NOTE: Change server-dir based on your TigerTech setup:
+          # /public_html/ for main domain root
+          # /public_html/emsculptmilwaukee/ for subdirectory
+          # / if your FTP user starts at web root
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
+            **/.DS_Store
+            **/README.md
+            **/GITHUB-DEPLOY.txt
+            **/LOCAL-SEO-STRATEGY.txt
+            **/IMAGES-NEEDED.txt
+            **/QUICK-START.txt
