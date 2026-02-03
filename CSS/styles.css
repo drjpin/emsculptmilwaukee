@@ -874,6 +874,11 @@ section {
         justify-content: center;
     }
     
+    .hero {
+        padding-top: 10rem;
+        min-height: 100vh;
+    }
+    
     .hero-title {
         font-size: 2rem;
     }
