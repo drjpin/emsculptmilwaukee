@@ -19,11 +19,8 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /public_html/
-          # NOTE: Change server-dir based on your TigerTech setup:
-          # /public_html/ for main domain root
-          # /public_html/emsculptmilwaukee/ for subdirectory
-          # / if your FTP user starts at web root
+          local-dir: ./
+          server-dir: ./
           exclude: |
             **/.git*
             **/.git*/**
