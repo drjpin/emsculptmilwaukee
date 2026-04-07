@@ -36,4 +36,40 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://emsculptmilwaukee.com/blog/</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://emsculptmilwaukee.com/blog/emsculpt-neo-vs-coolsculpting.html</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://emsculptmilwaukee.com/blog/how-many-emsculpt-treatments.html</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://emsculptmilwaukee.com/blog/emsculpt-neo-results-timeline.html</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://emsculptmilwaukee.com/blog/is-emsculpt-neo-worth-it.html</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://emsculptmilwaukee.com/blog/emsculpt-neo-after-pregnancy.html</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
