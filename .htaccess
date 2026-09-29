@@ -1,0 +1,11 @@
+# emsculptmilwaukee.com was retired on 2026-09-29.
+# Every URL on this domain (http, https, www, non-www) permanently redirects
+# to the Emsculpt NEO page on bayviewmkechiro.com. The trailing "?" drops any
+# query string.
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^ https://www.bayviewmkechiro.com/emsculpt-body-contouring.html? [R=301,L]
+</IfModule>
+<IfModule !mod_rewrite.c>
+    RedirectMatch 301 ^ https://www.bayviewmkechiro.com/emsculpt-body-contouring.html
+</IfModule>
